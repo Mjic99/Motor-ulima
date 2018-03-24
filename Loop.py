@@ -12,11 +12,11 @@ array = data["estados"]
 
 lista = List()
 for i in range(len(array)-1, -1, -1):
-	lista.add(array[i])
+	lista.add(array[i]["nombre"])
 
 clock = pygame.time.Clock()
 
-manager = GameManager(lista)
+manager = GameManager(array)
 
 
 while True:

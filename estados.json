@@ -1,3 +1,31 @@
 {
-	"estados":["MenuPrincipal", "NivelRandom", "Video"]
+	"estados":[
+		{
+			"nombre":"MenuPrincipal",
+			"eventos":[
+				{
+					"tecla":"K_SPACE",
+					"accion":"next_state()"
+				}
+			]
+		},
+		{
+			"nombre":"NivelRandom",
+			"eventos":[
+				{
+					"tecla":"K_SPACE",
+					"accion":"next_state()"
+				}
+			]
+		},
+		{
+			"nombre":"Video",
+			"eventos":[
+				{
+					"tecla":"K_SPACE",
+					"accion":"next_state()"
+				}
+			]
+		}
+	]
 }
